@@ -149,6 +149,7 @@ void do_send(osjob_t* j){
         dtostrf(hum, 5, 1, buff);
 */
         int hum = analogRead(A0);
+        hum = 1000 - hum; 
         Serial.println(hum);
         char buff[16];
         itoa(hum, buff, 10);

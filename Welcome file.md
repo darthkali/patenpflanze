@@ -1,8 +1,3 @@
----
-
-
----
-
 <h1 id="patenpflanze">Patenpflanze</h1>
 <p>Das ist ein Test</p>
 <h1 id="files">Files</h1>

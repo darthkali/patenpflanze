@@ -8,10 +8,11 @@ Instructions to Build a LoRa Node
 - LORA SHIELD (Dragino) v1.4 - 868MHZ
 
 ### Software
-- Raspberry Pi Operation System [link and instruction below]
-- Dual Channel Package Forwarder [link and instruction below]
+- Arduino IDE (optional)
+- LMIC Library
 
-## Installation RaspberryPi OS
+## Setup Code
+TODO
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MTMyMzc3Ml19
+eyJoaXN0b3J5IjpbLTM1MDIwNDM4XX0=
 -->

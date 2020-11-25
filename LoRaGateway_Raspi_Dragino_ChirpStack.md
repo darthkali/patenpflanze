@@ -180,7 +180,10 @@ Listening at SF7 on 868.100000 Mhz
 
 ## Gateway on Chirp Stack 
 
- 1. Login to your ChirpStack 
+ 1. Login to your ChirpStack Server
+ 2. go to Gateways (left sidebar)
+> if there is no sidebar, click on the 3 Rows in the top-left of the page to open the menu
+ 3. List item
 
 go to Gateways
 + CREATE
@@ -195,6 +198,6 @@ now your gateway should work
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MDM4MjcxLDQ3MTUxMTEwLDI5NTU3NT
+eyJoaXN0b3J5IjpbOTI2ODY4Njk1LDQ3MTUxMTEwLDI5NTU3NT
 gyNiwtMjA5NzIyNzcxNCwtMjc5MDk0NDMyXX0=
 -->

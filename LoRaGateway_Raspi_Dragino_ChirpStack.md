@@ -4,23 +4,13 @@ Instructions to Build a Dual Channel LoRa Gateway with ChirpStack
 ## What do you need?
 ### Hardware
 
-> Raspberry Pi 4 Modell B
-
-<img src="raspberryPi_4.jpg" alt="Raspberry Pi 4 Modell B" width="100" >
-
-> Dragino LoRa/GPS HAT
-
-<img src="LoRaHAT_RaspberryPi.jpg" alt="Dragino LoRa/GPS HAT" width="100" >
-
-> 16 GB SD-Card
-
-<img src="SD-Card-16.jpg" alt="16 GB SD-Card" width="50" >
- 
+- Raspberry Pi 4 Modell B
+- Dragino LoRa/GPS HAT
+- 16 GB SD-Card
 
 ### Software
 - Raspberry Pi Operation System [link and instruction below]
 - Dual Channel Package Forwarder [link and instruction below]
-
 
 ## Installation RaspberryPi OS
 >You can find all Informations here:
@@ -198,6 +188,6 @@ You can look at the page from the gateway and click on the "LIVE LORAWAN FRAMES"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDIzMTU3Nyw0NzE1MTExMCwyOTU1Nz
+eyJoaXN0b3J5IjpbLTQ2MTE2NjE1OCw0NzE1MTExMCwyOTU1Nz
 U4MjYsLTIwOTcyMjc3MTQsLTI3OTA5NDQzMl19
 -->

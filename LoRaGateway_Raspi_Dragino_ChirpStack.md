@@ -88,11 +88,9 @@ nano global_conf.json
 
 3) Change the Server to the ChirpStack Address
 
-```bash
+```json
 "address": "CHIRPSTACK-ADDRESS",
 ```
-
-
 
 4) Compile the dual channel forwarder code:
 > get shure, that you are in the main directory [dual_chan_pkt_fwd]
@@ -104,8 +102,8 @@ make
 ```bash
 sudo ./ dual_chan_pkt_fwd
 ```
-In some cases the sudo option generates a failure. If you get an “Unrecognized transreciver”, try the command without “sudo”
-> you can Stop the Gateway with Crtl + C
+> - in some cases the "sudo" option generates a failure. If you get an “Unrecognized transreciver”, try the command without “sudo”
+> - you can Stop the Gateway with Crtl + C
 
 6) Copy the Gateway ID from the Console in your clipboard
 
@@ -113,6 +111,6 @@ In some cases the sudo option generates a failure. If you get an “Unrecognized
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTE1MTc3MCwtMjA5NzIyNzcxNCwtMj
-c5MDk0NDMyXX0=
+eyJoaXN0b3J5IjpbMjk1NTc1ODI2LC0yMDk3MjI3NzE0LC0yNz
+kwOTQ0MzJdfQ==
 -->

@@ -42,7 +42,7 @@ or use Chocolatey [[Whats this?](https://chocolatey.org/why-chocolatey)]
 ```bash
 choco install rpi-imager
 ```
-#### Setup Raspberry
+## Setup Raspberry
 
 Use raspi-config to enable SPI:
 
@@ -116,5 +116,5 @@ In some cases the sudo option generates a failure. If you get an “Unrecognized
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3OTA5NDQzMl19
+eyJoaXN0b3J5IjpbLTIxMTk2Mzk2ODAsLTI3OTA5NDQzMl19
 -->

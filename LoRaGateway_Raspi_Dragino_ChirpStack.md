@@ -61,12 +61,11 @@ sudo apt-get install xrdp
 sudo shutdown -r now
 ```
 
-### Setup Dual Channel Packet Forwarder
-
-
+### Setup - Dual Channel Package Forwarder
 
 1) Login to Raspberry Pi as the Pi user
 2) Clone the repo [in root folder]
+
 ```bash
 git clone https://github.com/dragino/dual_chan_pkt_fwd.git
 ```
@@ -75,9 +74,7 @@ git clone https://github.com/dragino/dual_chan_pkt_fwd.git
 ```bash
 sudo apt-get install wiringpi
 ```
-
-
-## Config
+### Config - Dual Channel Package Forwarder
 1) go to the dual channel forwarder folder:
 
 ```bash
@@ -116,6 +113,6 @@ In some cases the sudo option generates a failure. If you get an “Unrecognized
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzEyOTI4NTIsLTIwOTcyMjc3MTQsLT
-I3OTA5NDQzMl19
+eyJoaXN0b3J5IjpbLTE3OTE1MTc3MCwtMjA5NzIyNzcxNCwtMj
+c5MDk0NDMyXX0=
 -->

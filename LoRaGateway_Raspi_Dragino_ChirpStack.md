@@ -119,7 +119,7 @@ nano global_conf.json
     "servers":
     [
       {
-        "address": "TYPE_IN_YOUR_CHIRPSTACK_ServeADDRESS",
+        "address": "TYPE_IN_YOUR_CHIRPSTACK_SERVER_ADDRESS",
         "port": 1700,
         "enabled": true
       },
@@ -135,8 +135,9 @@ nano global_conf.json
 
 
 ```json
-"address": "CHIRPSTACK-ADDRESS",
+"address": "TYPE_IN_YOUR_CHIRPSTACK_SERVER_ADDRESS",
 ```
+> the adress should be somethng 
 
 4) Compile the dual channel forwarder code:
 > get shure, that you are in the main directory [dual_chan_pkt_fwd]
@@ -161,6 +162,6 @@ enter a Gateway Name and Description
 Generate a Gateway ID in MSB (copy this 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMzODYyODEyLDI5NTU3NTgyNiwtMjA5Nz
-IyNzcxNCwtMjc5MDk0NDMyXX0=
+eyJoaXN0b3J5IjpbLTE2NjAyODYxNTAsMjk1NTc1ODI2LC0yMD
+k3MjI3NzE0LC0yNzkwOTQ0MzJdfQ==
 -->

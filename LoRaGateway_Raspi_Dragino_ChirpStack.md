@@ -160,7 +160,7 @@ sudo ./ dual_chan_pkt_fwd
 
 ```bash
 pi@raspberrypi:~/dual_chan_pkt_fwd $ ./dual_chan_pkt_fwd 
-server: .address = datenmoni.de; .port = 1700; .enable = 1
+server: .address = TYPE_IN_YOUR_CHIRPSTACK_SERVER_ADDRESS; .port = 1700; .enable = 1
 server: .address = router.eu.thethings.network; .port = 1700; .enable = 0
 Gateway Configuration
   your name (a@b.c)
@@ -173,7 +173,7 @@ Trying to detect module CE0 with NSS=6 DIO0=7 Reset=3 Led1=unused
 SX1276 detected on CE0, starting.
 Trying to detect module CE1 with NSS=6 DIO0=7 Reset=3 Led1=unused
 SX1276 detected on CE1, starting.
-Gateway ID: dc:a6:32:ff:ff:30:7e:6e
+Gateway ID: 00:00:00:00:00:00:00:00
 Listening at SF7 on 868.100000 Mhz.
 Listening at SF7 on 868.100000 Mhz
 ```
@@ -205,6 +205,6 @@ click on create Gateway
 
 now your gateway should work
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NTY5ODYyOCw0NzE1MTExMCwyOTU1Nz
+eyJoaXN0b3J5IjpbMTQ0MTkyOTIyNSw0NzE1MTExMCwyOTU1Nz
 U4MjYsLTIwOTcyMjc3MTQsLTI3OTA5NDQzMl19
 -->

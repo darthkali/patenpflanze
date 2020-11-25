@@ -187,14 +187,14 @@ Listening at SF7 on 868.100000 Mhz
  4. enter a Gateway name and description
  5. paste in the Gateway ID from your clipboard
  6. select a network server
-> maybe you need to Create this TODO
-set the altitude and the location of the gateway
-click on create Gateway
+> maybe you need to Create a Service profile first
+ 7. set the altitude and the location of the gateway
+ 8. click on **CREATE GATEWAY**
 
-now your gateway should work
+Now your gateway should work
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU1Mjk3OTUyLDQ3MTUxMTEwLDI5NTU3NT
-gyNiwtMjA5NzIyNzcxNCwtMjc5MDk0NDMyXX0=
+eyJoaXN0b3J5IjpbMTAyMjk1MTczOCw0NzE1MTExMCwyOTU1Nz
+U4MjYsLTIwOTcyMjc3MTQsLTI3OTA5NDQzMl19
 -->

@@ -48,6 +48,8 @@ sudo apt-get install xrdp
 ```bash
 sudo shutdown -r now
 ```
+> after thi8s step you can access your device from your PC oder Laptop or other devices.
+> IN 
 
 ### Setup - Dual Channel Package Forwarder
 
@@ -188,6 +190,7 @@ You can look at the page from the gateway and click on the "LIVE LORAWAN FRAMES"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MTE2NjE1OCw0NzE1MTExMCwyOTU1Nz
-U4MjYsLTIwOTcyMjc3MTQsLTI3OTA5NDQzMl19
+eyJoaXN0b3J5IjpbLTcwNjEwMTQ0MywtNDYxMTY2MTU4LDQ3MT
+UxMTEwLDI5NTU3NTgyNiwtMjA5NzIyNzcxNCwtMjc5MDk0NDMy
+XX0=
 -->

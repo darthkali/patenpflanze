@@ -22,8 +22,6 @@ Instructions to Build a Dual Channel LoRa Gateway with ChirpStack
 - Dual Channel Package Forwarder [link and instruction below]
 
 
-
-
 ## Installation RaspberryPi OS
 >You can find all Informations here:
 > https://www.raspberrypi.org/software/
@@ -107,10 +105,13 @@ sudo ./ dual_chan_pkt_fwd
 
 6) Copy the Gateway ID from the Console in your clipboard
 
-## TODO: Add ChirpStack Install Guide here
+## Gateway on Chirp Stack 
 
+go to Gateways
++ CREATE
+enter a Gateway Name and De
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk1NTc1ODI2LC0yMDk3MjI3NzE0LC0yNz
-kwOTQ0MzJdfQ==
+eyJoaXN0b3J5IjpbLTEyMDY4OTY0OTIsMjk1NTc1ODI2LC0yMD
+k3MjI3NzE0LC0yNzkwOTQ0MzJdfQ==
 -->

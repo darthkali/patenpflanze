@@ -157,7 +157,8 @@ sudo ./ dual_chan_pkt_fwd
 
 6) Copy the Gateway ID from the Console in your clipboard
 
-```sh
+
+```bash
 pi@raspberrypi:~/dual_chan_pkt_fwd $ ./dual_chan_pkt_fwd 
 server: .address = datenmoni.de; .port = 1700; .enable = 1
 server: .address = router.eu.thethings.network; .port = 1700; .enable = 0
@@ -204,6 +205,6 @@ click on create Gateway
 
 now your gateway should work
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMDQ5NDcxMSw0NzE1MTExMCwyOTU1Nz
+eyJoaXN0b3J5IjpbLTU0NTY5ODYyOCw0NzE1MTExMCwyOTU1Nz
 U4MjYsLTIwOTcyMjc3MTQsLTI3OTA5NDQzMl19
 -->

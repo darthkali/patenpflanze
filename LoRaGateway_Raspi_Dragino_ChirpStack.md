@@ -61,7 +61,7 @@ sudo apt-get install xrdp
 sudo shutdown -r now
 ```
 
-### Setup the Raspberry Pi Software
+### Setup Dual Channel Packet Forwarder
 
 
 
@@ -116,5 +116,6 @@ In some cases the sudo option generates a failure. If you get an “Unrecognized
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTcyMjc3MTQsLTI3OTA5NDQzMl19
+eyJoaXN0b3J5IjpbLTIxMzEyOTI4NTIsLTIwOTcyMjc3MTQsLT
+I3OTA5NDQzMl19
 -->

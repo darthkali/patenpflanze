@@ -23,8 +23,8 @@ Instructions to Build a Dual Channel LoRa Gateway with ChirpStack
 
 
 
-## Installation
- ### RaspberryPi OS
+
+## Installation RaspberryPi OS
 >You can find all Informations here:
 > https://www.raspberrypi.org/software/
 
@@ -46,7 +46,6 @@ choco install rpi-imager
 
 Use raspi-config to enable SPI:
 
-
 ```bash
 sudo raspi-config
 ```
@@ -55,7 +54,12 @@ sudo raspi-config
 - Select P2 [SSH] and P4 [SPI]:
 - Select *Yes*
 
-- reboot
+```bash
+sudo apt-get install xrdp
+```
+
+
+>reboot
 
 ```bash
 sudo shutdown -r now
@@ -116,5 +120,5 @@ In some cases the sudo option generates a failure. If you get an “Unrecognized
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTk2Mzk2ODAsLTI3OTA5NDQzMl19
+eyJoaXN0b3J5IjpbLTU3Mzg5OTc0OCwtMjc5MDk0NDMyXX0=
 -->

@@ -109,9 +109,10 @@ sudo ./ dual_chan_pkt_fwd
 
 go to Gateways
 + CREATE
-enter a Gateway Name and De
+enter a Gateway Name and Description
+Generate a Gateway ID in MSB (copy this 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDY4OTY0OTIsMjk1NTc1ODI2LC0yMD
-k3MjI3NzE0LC0yNzkwOTQ0MzJdfQ==
+eyJoaXN0b3J5IjpbNDk2NzI1MjYyLDI5NTU3NTgyNiwtMjA5Nz
+IyNzcxNCwtMjc5MDk0NDMyXX0=
 -->

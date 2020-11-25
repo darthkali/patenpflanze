@@ -191,11 +191,12 @@ Listening at SF7 on 868.100000 Mhz
  7. set the altitude and the location of the gateway
  8. click on **CREATE GATEWAY**
 
-Now your gateway should work.
-You can look at the page from the gateway and click on the "LIVE LORAWAN FRAMES" tab to see yout Up- and DOWNlinks
+***Now your gateway should work.***
+You can look at the page from the gateway and click on the "LIVE LORAWAN FRAMES" tab to see yout Up- and Downlinks. 
+> A node must send data before. Without a node, you don't receive frames in the Gateway
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTczMTY1MTEsNDcxNTExMTAsMjk1NT
-c1ODI2LC0yMDk3MjI3NzE0LC0yNzkwOTQ0MzJdfQ==
+eyJoaXN0b3J5IjpbLTc3NjY2NjE1NSw0NzE1MTExMCwyOTU1Nz
+U4MjYsLTIwOTcyMjc3MTQsLTI3OTA5NDQzMl19
 -->

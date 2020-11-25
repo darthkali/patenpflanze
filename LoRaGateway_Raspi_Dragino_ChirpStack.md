@@ -157,6 +157,8 @@ sudo ./ dual_chan_pkt_fwd
 
 6) Copy the Gateway ID from the Console in your clipboard
 
+
+
 ## Gateway on Chirp Stack 
 
 go to Gateways
@@ -167,7 +169,22 @@ select a networkl server
 > mybe you need to Create this TODO
 set the altitude and the location of the gateway
 click on create Gateway
+
+now your gateway should work
+
+## Application on Chirp Stack 
+
+go to Gateways
++ CREATE
+enter a Gateway Name and Description
+Generate a Gateway ID in MSB
+select a networkl server
+> mybe you need to Create this TODO
+set the altitude and the location of the gateway
+click on create Gateway
+
+now your gateway should work
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MTQ0NDI0Nyw0NzE1MTExMCwyOTU1Nz
-U4MjYsLTIwOTcyMjc3MTQsLTI3OTA5NDQzMl19
+eyJoaXN0b3J5IjpbLTExODUzMDM2ODIsNDcxNTExMTAsMjk1NT
+c1ODI2LC0yMDk3MjI3NzE0LC0yNzkwOTQ0MzJdfQ==
 -->

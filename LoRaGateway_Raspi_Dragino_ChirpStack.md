@@ -191,10 +191,11 @@ Listening at SF7 on 868.100000 Mhz
  7. set the altitude and the location of the gateway
  8. click on **CREATE GATEWAY**
 
-Now your gateway should work
+Now your gateway should work.
+You can look at the page from the gateway and click on the "LIVE LORAWAN FRAMES" tab to see yout Up- and DOWNlinks
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMjk1MTczOCw0NzE1MTExMCwyOTU1Nz
-U4MjYsLTIwOTcyMjc3MTQsLTI3OTA5NDQzMl19
+eyJoaXN0b3J5IjpbLTEwNTczMTY1MTEsNDcxNTExMTAsMjk1NT
+c1ODI2LC0yMDk3MjI3NzE0LC0yNzkwOTQ0MzJdfQ==
 -->

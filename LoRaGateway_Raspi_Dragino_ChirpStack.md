@@ -155,8 +155,7 @@ sudo ./ dual_chan_pkt_fwd
 > - in some cases the "sudo" option generates a failure. If you get an “Unrecognized transreciver”, try the command without “sudo”
 > - you can Stop the Gateway with Crtl + C
 
-6) Copy the Gateway ID from the Console in your clipboard
-
+6) Copy the **Gateway ID** from the Console in your clipboard
 
 ```bash
 pi@raspberrypi:~/dual_chan_pkt_fwd $ ./dual_chan_pkt_fwd 
@@ -181,10 +180,12 @@ Listening at SF7 on 868.100000 Mhz
 
 ## Gateway on Chirp Stack 
 
+ 1. Login to your ChirpStack 
+
 go to Gateways
 + CREATE
 enter a Gateway Name and Description
-Generate a Gateway ID in MSB
+paste in the Gatewy ID from your Clipboard
 select a networkl server
 > mybe you need to Create this TODO
 set the altitude and the location of the gateway
@@ -192,19 +193,8 @@ click on create Gateway
 
 now your gateway should work
 
-## Application on Chirp Stack 
 
-go to Gateways
-+ CREATE
-enter a Gateway Name and Description
-Generate a Gateway ID in MSB
-select a networkl server
-> mybe you need to Create this TODO
-set the altitude and the location of the gateway
-click on create Gateway
-
-now your gateway should work
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MTkyOTIyNSw0NzE1MTExMCwyOTU1Nz
-U4MjYsLTIwOTcyMjc3MTQsLTI3OTA5NDQzMl19
+eyJoaXN0b3J5IjpbMTA3MDM4MjcxLDQ3MTUxMTEwLDI5NTU3NT
+gyNiwtMjA5NzIyNzcxNCwtMjc5MDk0NDMyXX0=
 -->

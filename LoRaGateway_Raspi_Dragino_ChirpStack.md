@@ -24,8 +24,9 @@ Instructions to Build a Dual Channel LoRa Gateway with ChirpStack
 
 
 ## Installation
- ### First we need to Install the RaspberryPi OS
-> https://www.raspberrypi.org/documentation/installation/installing-images/
+ ### RaspberryPi OS
+>You can find all Informations here:
+> https://www.raspberrypi.org/software/
 
 #### Linux
 ```bash
@@ -115,5 +116,5 @@ In some cases the sudo option generates a failure. If you get an “Unrecognized
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMzIzMDg0XX0=
+eyJoaXN0b3J5IjpbLTI3OTA5NDQzMl19
 -->

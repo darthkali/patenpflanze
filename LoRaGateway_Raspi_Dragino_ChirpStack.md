@@ -162,9 +162,12 @@ sudo ./ dual_chan_pkt_fwd
 go to Gateways
 + CREATE
 enter a Gateway Name and Description
-Generate a Gateway ID in MSB (copy this 
-
+Generate a Gateway ID in MSB
+select a networkl server
+> mybe you need to Create this TODO
+set the altitude and the location of the gateway
+click on create Gateway
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcxNTExMTAsMjk1NTc1ODI2LC0yMDk3Mj
-I3NzE0LC0yNzkwOTQ0MzJdfQ==
+eyJoaXN0b3J5IjpbLTI2MTQ0NDI0Nyw0NzE1MTExMCwyOTU1Nz
+U4MjYsLTIwOTcyMjc3MTQsLTI3OTA5NDQzMl19
 -->

@@ -44,7 +44,7 @@ choco install rpi-imager
 ```
 ## Setup Raspberry
 
-Use raspi-config to enable SPI:
+#### Remote access:
 
 ```bash
 sudo raspi-config
@@ -57,10 +57,6 @@ sudo raspi-config
 ```bash
 sudo apt-get install xrdp
 ```
-
-
->reboot
-
 ```bash
 sudo shutdown -r now
 ```
@@ -120,5 +116,5 @@ In some cases the sudo option generates a failure. If you get an “Unrecognized
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3Mzg5OTc0OCwtMjc5MDk0NDMyXX0=
+eyJoaXN0b3J5IjpbLTIwOTcyMjc3MTQsLTI3OTA5NDQzMl19
 -->

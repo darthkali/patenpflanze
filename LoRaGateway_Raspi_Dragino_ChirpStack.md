@@ -157,6 +157,25 @@ sudo ./ dual_chan_pkt_fwd
 
 6) Copy the Gateway ID from the Console in your clipboard
 
+```sh
+pi@raspberrypi:~/dual_chan_pkt_fwd $ ./dual_chan_pkt_fwd 
+server: .address = datenmoni.de; .port = 1700; .enable = 1
+server: .address = router.eu.thethings.network; .port = 1700; .enable = 0
+Gateway Configuration
+  your name (a@b.c)
+  Dual channel pkt forwarder
+  Latitude=0.00000000
+  Longitude=0.00000000
+  Altitude=10
+  Interface: eth0
+Trying to detect module CE0 with NSS=6 DIO0=7 Reset=3 Led1=unused
+SX1276 detected on CE0, starting.
+Trying to detect module CE1 with NSS=6 DIO0=7 Reset=3 Led1=unused
+SX1276 detected on CE1, starting.
+Gateway ID: dc:a6:32:ff:ff:30:7e:6e
+Listening at SF7 on 868.100000 Mhz.
+Listening at SF7 on 868.100000 Mhz
+```
 
 
 ## Gateway on Chirp Stack 
@@ -185,6 +204,6 @@ click on create Gateway
 
 now your gateway should work
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODUzMDM2ODIsNDcxNTExMTAsMjk1NT
-c1ODI2LC0yMDk3MjI3NzE0LC0yNzkwOTQ0MzJdfQ==
+eyJoaXN0b3J5IjpbLTIzMDQ5NDcxMSw0NzE1MTExMCwyOTU1Nz
+U4MjYsLTIwOTcyMjc3MTQsLTI3OTA5NDQzMl19
 -->

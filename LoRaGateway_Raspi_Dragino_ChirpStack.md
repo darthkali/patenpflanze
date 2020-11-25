@@ -87,6 +87,54 @@ nano global_conf.json
 3) Change the Server to the ChirpStack Address
 
 ```json
+{
+  "SX127x_conf":
+  {
+    "freq": 868100000,
+    "freq_2": 868100000,
+    "spread_factor": 7,
+    "pin_nss": 6,
+    "pin_dio0": 7,
+    "pin_nss_2": 6,
+    "pin_dio0_2": 7,
+    "pin_rst": 3,
+    "pin_led1":4,
+    "pin_NetworkLED": 22,
+    "pin_InternetLED": 23,
+    "pin_ActivityLED_0": 21,
+    "pin_ActivityLED_1": 29
+  },
+  "gateway_conf":
+  {
+    "ref_latitude": 0.0,
+    "ref_longitude": 0.0,
+    "ref_altitude": 10,
+
+    "name": "your name",
+    "email": "a@b.c",
+    "desc": "Dual channel pkt forwarder",
+
+    "interface": "eth0",
+
+    "servers":
+    [
+      {
+        "address": "TYPE_IN_YOUR_CHIRPSTACK_ServeADDRESS",
+        "port": 1700,
+        "enabled": true
+      },
+      {
+        "address": "router.eu.thethings.network",
+        "port": 1700,
+        "enabled": false
+      }
+    ]
+  }
+}
+```
+
+
+```json
 "address": "CHIRPSTACK-ADDRESS",
 ```
 
@@ -113,6 +161,6 @@ enter a Gateway Name and Description
 Generate a Gateway ID in MSB (copy this 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk2NzI1MjYyLDI5NTU3NTgyNiwtMjA5Nz
+eyJoaXN0b3J5IjpbOTMzODYyODEyLDI5NTU3NTgyNiwtMjA5Nz
 IyNzcxNCwtMjc5MDk0NDMyXX0=
 -->

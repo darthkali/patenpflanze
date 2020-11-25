@@ -49,13 +49,14 @@ Find your IP-Address:
 ```bash
 ifconfig
 ```
-
+write down the IP-Address from your device (eth0 -> inet)
 
 ```bash
 sudo shutdown -r now
 ```
-> after thi8s step you can access your device from your PC oder Laptop or other devices.
-> IN Windows you can use Putty or the "Remote Desktop Connection"
+> after this step you have access to your device from your PC oder Laptop or other devices
+> in Windows you can use Putty or the "Remote Desktop Connection"
+> you need the IP-Address to connect
 
 ### Setup - Dual Channel Package Forwarder
 
@@ -196,7 +197,7 @@ You can look at the page from the gateway and click on the "LIVE LORAWAN FRAMES"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzE5MDkxODcsLTQ2MTE2NjE1OCw0Nz
-E1MTExMCwyOTU1NzU4MjYsLTIwOTcyMjc3MTQsLTI3OTA5NDQz
-Ml19
+eyJoaXN0b3J5IjpbMTc4OTg5MTc5MSwtNDYxMTY2MTU4LDQ3MT
+UxMTEwLDI5NTU3NTgyNiwtMjA5NzIyNzcxNCwtMjc5MDk0NDMy
+XX0=
 -->

@@ -14,7 +14,16 @@ Instructions to Build a LoRa Node
 ## Setup Code
 Download the code from git hub
 You can find the Code in the following Folder:
-/src/LoRaNode_Patenpflanze/4 Files
+/src/LoRaNode_Patenpflanze/
+LoRaNode_Patenpflanze.ino
+
+config.h
+> here you have the PIN-Confuguration
+
+
+keys _example.h
+> here you can set the Applications Keys (fom ChirpStack)
+sourceCode.h
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MjQ3OTUyMSwtMzUwMjA0MzhdfQ==
+eyJoaXN0b3J5IjpbMTA1NTE2NTIxNiwtMzUwMjA0MzhdfQ==
 -->

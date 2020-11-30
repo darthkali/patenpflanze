@@ -117,13 +117,6 @@ void do_send(osjob_t* j){
     if (LMIC.opmode & OP_TXRXPEND) {
         Serial.println(F("OP_TXRXPEND, not sending"));
     } else {
-/*
-        int hum = analogRead(A0);
-        hum = 1000 - hum; 
-        Serial.println(hum);
-        char buff[16];
-        itoa(hum, buff, 10);
-*/
 
         int hum = getHum();
         char buff[16];

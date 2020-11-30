@@ -12,7 +12,9 @@ Instructions to Build a LoRa Node
 - LMIC Library
 
 ## Setup Code
+
 **Download the code from git hub**
+
 ``` batch
 git clone https://github.com/darthkali/patenpflanze
 ```
@@ -22,7 +24,6 @@ git clone https://github.com/darthkali/patenpflanze
 **LoRaNode_Patenpflanze.ino**
 > - this is the main program which must be comiled to the Arduino
 >  - it implements the header Files: *"**config**, **keys** and **sourceCode**"*
-
 
 **config.h**
 > - here you have the PIN-Configuration
@@ -36,7 +37,9 @@ git clone https://github.com/darthkali/patenpflanze
 **sourceCode.h**
 > - this ist your Source Code
 > - here you can implement the logic from your Sensor
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ3MzM1Njg0LDIzNTU2ODcxMywtMzUwMj
-A0MzhdfQ==
+eyJoaXN0b3J5IjpbLTE1NDYyMjc5OTAsMjM1NTY4NzEzLC0zNT
+AyMDQzOF19
 -->

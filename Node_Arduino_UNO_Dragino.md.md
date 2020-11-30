@@ -18,18 +18,18 @@ You can find the Code in the following Folder:
 LoRaNode_Patenpflanze.ino
 
 **config.h**
-> - here you have the PIN-Confuguration
+> - here you have the PIN-Configuration
 
 
 **keys _example.h**
-> - here you can set the Applications Keys (fom ChirpStack)
+> - here you can set the Applications Keys (from ChirpStack)
 > - please rename ist to **keys.h**
 > - this fill will not be uploadet to a repository, when you let the **.gitignore** in your Project.
 
 
 **sourceCode.h**
-> - this ist your SourceCode
-> - Here you can implement the logic from your Sensor
+> - this ist your Source Code
+> - here you can implement the logic from your Sensor
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NDEwNzE1NSwtMzUwMjA0MzhdfQ==
+eyJoaXN0b3J5IjpbMjM1NTY4NzEzLC0zNTAyMDQzOF19
 -->

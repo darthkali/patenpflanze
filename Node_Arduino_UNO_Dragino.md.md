@@ -23,7 +23,13 @@ config.h
 
 keys _example.h
 > here you can set the Applications Keys (fom ChirpStack)
+> please rename ist to **keys.h**
+> this fill will not be uploadet to a repository, because it
+
+
 sourceCode.h
+> this ist your SourceCode
+> Here you can implement the logic from your Sensor
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NTE2NTIxNiwtMzUwMjA0MzhdfQ==
+eyJoaXN0b3J5IjpbLTUwNzEyMTU0NiwtMzUwMjA0MzhdfQ==
 -->

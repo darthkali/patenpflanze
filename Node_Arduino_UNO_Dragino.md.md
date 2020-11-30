@@ -12,7 +12,9 @@ Instructions to Build a LoRa Node
 - LMIC Library
 
 ## Setup Code
-TODO
+Download the code from git hub
+You can find the Code in the following Folder:
+/src/LoRaNode_Patenpflanze/4 Files
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MDIwNDM4XX0=
+eyJoaXN0b3J5IjpbLTc0MjQ3OTUyMSwtMzUwMjA0MzhdfQ==
 -->

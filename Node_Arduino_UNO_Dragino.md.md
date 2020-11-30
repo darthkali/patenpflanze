@@ -16,16 +16,16 @@ Instructions to Build a LoRa Node
 ``` batch
 git clone https://github.com/darthkali/patenpflanze
 ```
-You can find the Code in the following Folder:
+**You can find the Code in the following Folder:**
 >/src/LoRaNode_Patenpflanze/
 
 **LoRaNode_Patenpflanze.ino**
-> - this is the main 
+> - this is the main program which must be comiled to the Arduino
+>  - it implements the header Files: *"**config**, **keys** and **sourceCode**"*
 
 
 **config.h**
 > - here you have the PIN-Configuration
-
 
 **keys _example.h**
 > - here you can set the Applications Keys (from ChirpStack)
@@ -37,6 +37,6 @@ You can find the Code in the following Folder:
 > - this ist your Source Code
 > - here you can implement the logic from your Sensor
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjM0MjA3MzQsMjM1NTY4NzEzLC0zNT
-AyMDQzOF19
+eyJoaXN0b3J5IjpbNzQ3MzM1Njg0LDIzNTU2ODcxMywtMzUwMj
+A0MzhdfQ==
 -->

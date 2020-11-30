@@ -10,11 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8fcc30f-fcf7-46d2-aec8-8e3d796586c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoRaNode_Patenpflanze/config.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoRaNode_Patenpflanze/keys _example.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoRaNode_Patenpflanze/sourceCode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LoRaNode_Patenpflanze/LoRaNode_Patenpflanze.ino" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoRaNode_Patenpflanze/LoRaNode_Patenpflanze.ino" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoRaNode_Patenpflanze/sourceCode.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoRaNode_Patenpflanze/sourceCode.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ClangdSettings">
+    <option name="clangTidyViaClangd" value="false" />
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="Git.Settings">
@@ -53,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606732255798</updated>
-      <workItem from="1606732256891" duration="122000" />
+      <workItem from="1606732256891" duration="2831000" />
     </task>
     <servers />
   </component>

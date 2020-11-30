@@ -36,6 +36,7 @@
 #include "keys.h"
 #include "config.h"
 #include "sourceCode.h"
+#include "Ticker.h"
 
 // These callbacks are only used in over-the-air activation, so they are
 // left empty here (we cannot leave them out completely unless
@@ -46,6 +47,9 @@ void os_getDevKey (u1_t* buf) { }
 
 //static int mydata = 1;
 static osjob_t sendjob;
+
+Ticker timer(Tick, 1000);
+
 
 void onEvent (ev_t ev) {
     Serial.print(os_getTime());
@@ -118,7 +122,8 @@ void do_send(osjob_t* j){
         Serial.println(F("OP_TXRXPEND, not sending"));
     } else {
 
-        int hum = getHum();
+        int hum = analogInput();
+        Serial.println(analogInput());
         char buff[16];
         itoa(hum, buff, 10);
         
@@ -131,10 +136,18 @@ void do_send(osjob_t* j){
     // Next TX is scheduled after TX_COMPLETE event.
 }
 
+// --- system tick ---
+void Tick() {
+    //Serial.print(nTime);
+    nTime += 1;
+}
+
 void setup() {
     Serial.begin(115200);
     Serial.println(F("Starting"));
+    timer.start();
 
+    
     #ifdef VCC_ENABLE
     // For Pinoccio Scout boards
     pinMode(VCC_ENABLE, OUTPUT);
@@ -213,5 +226,7 @@ void setup() {
 }
 
 void loop() {
-    os_runloop_once();
+  timer.update();
+  StateMachine();
+  os_runloop_once();
 }

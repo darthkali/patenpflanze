@@ -38,8 +38,9 @@ git clone https://github.com/darthkali/patenpflanze
 > - this ist your Source Code
 > - here you can implement the logic from your Sensor
 
-If you get an Error because the LMIC Lib was not found, then you neet to install the IBM LMIC Faramwork
+
+If you get an error because the LMIC Lib was not found, then you need to install the [IBM LMIC Faramwork](https://www.arduino.cc/reference/en/libraries/ibm-lmic-framework/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMDM4MzI2OCwtMTU0NjIyNzk5MCwyMz
-U1Njg3MTMsLTM1MDIwNDM4XX0=
+eyJoaXN0b3J5IjpbNDc2MTM0OTc0LC0xNTQ2MjI3OTkwLDIzNT
+U2ODcxMywtMzUwMjA0MzhdfQ==
 -->

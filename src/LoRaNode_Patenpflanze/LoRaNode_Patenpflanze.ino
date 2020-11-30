@@ -33,20 +33,9 @@
 #include <hal/hal.h>
 #include <SPI.h>
 #include <stdlib.h>
-
-// LoRaWAN NwkSKey, network session key
-// This is the default Semtech key, which is used by the early prototype TTN
-// network.
-static const PROGMEM u1_t NWKSKEY[16] = {  0x98, 0x83, 0x6D, 0x98, 0xB6, 0xD4, 0x30, 0x77, 0xA4, 0xF5, 0xCF, 0xDE, 0x79, 0xEB, 0x54, 0x54 } ;
-
-
-// LoRaWAN AppSKey, application session key
-// This is the default Semtech key, which is used by the early prototype TTN
-// network.
-static const u1_t PROGMEM APPSKEY[16] = { 0x21, 0xBD, 0xFB, 0x77, 0xCA, 0xC8, 0xD3, 0x74, 0xD9, 0x50, 0xF1, 0x43, 0x56, 0xD3, 0xBF, 0x25 };
-
-// LoRaWAN end-device address (DevAddr)
-static const u4_t DEVADDR = 0x01ed6928 ; // <-- Change this address for every node!
+#include "keys.h"
+#include "config.h"
+#include "sourceCode.h"
 
 // These callbacks are only used in over-the-air activation, so they are
 // left empty here (we cannot leave them out completely unless
@@ -55,22 +44,8 @@ void os_getArtEui (u1_t* buf) { }
 void os_getDevEui (u1_t* buf) { }
 void os_getDevKey (u1_t* buf) { }
 
-static uint8_t mydata[] = "Hello World";
-
 //static int mydata = 1;
 static osjob_t sendjob;
-
-// Schedule TX every this many seconds (might become longer due to duty
-// cycle limitations).
-const unsigned TX_INTERVAL = 30;
-
-// Pin mapping
-const lmic_pinmap lmic_pins = {
-    .nss = 10,
-    .rxtx = LMIC_UNUSED_PIN,
-    .rst = 9,
-    .dio = {2, 6, 7},
-};
 
 void onEvent (ev_t ev) {
     Serial.print(os_getTime());
@@ -143,21 +118,19 @@ void do_send(osjob_t* j){
         Serial.println(F("OP_TXRXPEND, not sending"));
     } else {
 /*
-        char buff[15];
-        float hum = analogRead(A0);
-        Serial.println(hum);
-        dtostrf(hum, 5, 1, buff);
-*/
         int hum = analogRead(A0);
         hum = 1000 - hum; 
         Serial.println(hum);
         char buff[16];
         itoa(hum, buff, 10);
+*/
 
+        int hum = getHum();
+        char buff[16];
+        itoa(hum, buff, 10);
+        
         LMIC_setTxData2(1,buff,strlen(buff),0);
         
-
-      
         // Prepare upstream data transmission at the next possible time.
         //LMIC_setTxData2(1, (xref2u1_t)&mydata, sizeof(mydata)-1, 0);
         Serial.println(F("Packet queued"));

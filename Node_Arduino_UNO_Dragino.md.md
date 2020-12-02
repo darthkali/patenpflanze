@@ -10,6 +10,7 @@ Instructions to Build a LoRa Node
 ### Software
 - Arduino IDE (optional)
 - LMIC Library
+- Ticker Library
 
 ## Setup Code
 
@@ -40,6 +41,10 @@ git clone https://github.com/darthkali/patenpflanze
 
 
 If you get an error because the LMIC Lib was not found, then you need to install the [IBM LMIC Faramwork](https://www.arduino.cc/reference/en/libraries/ibm-lmic-framework/)
+If you get an error because the Ticvker Lib was not found, then you need to install the [Ticker Library](https://github.com/sstaub/Ticker)
+
+
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbNDc2MTM0OTc0LC0xNTQ2MjI3OTkwLDIzNT
 U2ODcxMywtMzUwMjA0MzhdfQ==

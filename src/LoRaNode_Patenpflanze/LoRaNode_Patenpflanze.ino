@@ -146,7 +146,7 @@ void setup() {
     Serial.begin(115200);
     Serial.println(F("Starting"));
     timer.start();
-
+    pinMode(pump,OUTPUT);   //set pin 8 to be an output output
     
     #ifdef VCC_ENABLE
     // For Pinoccio Scout boards
@@ -228,5 +228,6 @@ void setup() {
 void loop() {
   timer.update();
   StateMachine();
+//Serial.println(analogInput());
   os_runloop_once();
 }

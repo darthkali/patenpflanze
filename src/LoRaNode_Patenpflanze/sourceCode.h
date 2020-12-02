@@ -1,6 +1,6 @@
 #include "Ticker.h"
 
-#define MINHUMIDITY      480  // Breakpoint on which humidity the system will react [0.65]
+#define MINHUMIDITY      650  // Breakpoint on which humidity the system will react [0.65]
 #define WAIT_TIME        1800   // how long the system will stay in the WAIT State [1800 - every 30 minutes]
 #define PUMP_TIME        2      // how long the system will stay in the PUMP State [2]
 #define DATA_RESOLUTION  10     // Resolution for the Serial Data which will be printed to the Terminal [10]
@@ -34,7 +34,7 @@ STATE enState = stINIT;
 int analogInput() {
         static int  analog =  1000 - analogRead(A0);
         int adin = 1000 - analogRead(A0)  ;
-        
+
         analog = (analog * 49 + adin) /50;
         return analog;
 }
@@ -50,7 +50,7 @@ void setNextStateAndTheWaitTime(STATE state, int time) {
    
      switch (enState) {
          case stINIT:
-             digitalWrite(pump,LOW);   //pump Off
+             digitalWrite(pump,HIGH);   //pump Off
              enState = stCHECK;
              break;
 
@@ -64,14 +64,17 @@ void setNextStateAndTheWaitTime(STATE state, int time) {
              break;
 
          case stPUMP:
+
              if(stateFlag == 1) {
-                 Serial.print("Pump\n");
-                 digitalWrite(pump,HIGH);   //pump On
+
+//                 Serial.print("Pump\n");
+                 digitalWrite(pump,LOW);   //pump On
                  stateFlag = 0;
              }
 
              if (nStateChanged - nTime <= 0) {
-                 digitalWrite(pump,LOW);   //pump Off
+                 Serial.print(nTime);
+                 digitalWrite(pump,HIGH);   //pump Off
                  stateFlag = 1;
                  setNextStateAndTheWaitTime(stWAIT, WAIT_TIME);    //wait y minutes
              }

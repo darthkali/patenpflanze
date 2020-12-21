@@ -1,0 +1,5 @@
+P:/LoRa/patenpflanze/cmake-build-debug/CMakeFiles/Production.dir
+P:/LoRa/patenpflanze/cmake-build-debug/CMakeFiles/edit_cache.dir
+P:/LoRa/patenpflanze/cmake-build-debug/CMakeFiles/Debug.dir
+P:/LoRa/patenpflanze/cmake-build-debug/CMakeFiles/Z_DUMMY_TARGET.dir
+P:/LoRa/patenpflanze/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="patenpflanze"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="P:/LoRa/patenpflanze/cmake-build-uno"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f P:\LoRa\patenpflanze\cmake-build-uno\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f P:\LoRa\patenpflanze\cmake-build-uno\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f P:\LoRa\patenpflanze\cmake-build-uno\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f P:\LoRa\patenpflanze\cmake-build-uno\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Production">
+				<Option working_dir="P:/LoRa/patenpflanze/cmake-build-uno"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f P:\LoRa\patenpflanze\cmake-build-uno\Makefile VERBOSE=1 Production"/>
+					<CompileFile command="nmake /NOLOGO /f P:\LoRa\patenpflanze\cmake-build-uno\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f P:\LoRa\patenpflanze\cmake-build-uno\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f P:\LoRa\patenpflanze\cmake-build-uno\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="P:/LoRa/patenpflanze/cmake-build-uno"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f P:\LoRa\patenpflanze\cmake-build-uno\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f P:\LoRa\patenpflanze\cmake-build-uno\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f P:\LoRa\patenpflanze\cmake-build-uno\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f P:\LoRa\patenpflanze\cmake-build-uno\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Debug">
+				<Option working_dir="P:/LoRa/patenpflanze/cmake-build-uno"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f P:\LoRa\patenpflanze\cmake-build-uno\Makefile VERBOSE=1 Debug"/>
+					<CompileFile command="nmake /NOLOGO /f P:\LoRa\patenpflanze\cmake-build-uno\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f P:\LoRa\patenpflanze\cmake-build-uno\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f P:\LoRa\patenpflanze\cmake-build-uno\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET">
+				<Option output="P:/LoRa/patenpflanze/cmake-build-uno/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="P:/LoRa/patenpflanze/cmake-build-uno"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="P:/LoRa/patenpflanze/include"/>
+					<Add directory="P:/LoRa/patenpflanze/src"/>
+					<Add directory="P:/LoRa/patenpflanze/lib/IBM_LMIC_framework/src"/>
+					<Add directory="P:/LoRa/patenpflanze/lib/Ticker"/>
+					<Add directory="P:/LoRa/patenpflanze/.pio/libdeps/uno/Adafruit BMP085 Library"/>
+					<Add directory="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src"/>
+					<Add directory="C:/Users/dannysteinbrecher/.platformio/packages/framework-arduino-avr/cores/arduino"/>
+					<Add directory="C:/Users/dannysteinbrecher/.platformio/packages/framework-arduino-avr/variants/standard"/>
+					<Add directory="C:/Users/dannysteinbrecher/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/5.4.0/include"/>
+					<Add directory="C:/Users/dannysteinbrecher/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/5.4.0/include-fixed"/>
+					<Add directory="C:/Users/dannysteinbrecher/.platformio/packages/toolchain-atmelavr/avr/include"/>
+					<Add directory="C:/Users/dannysteinbrecher/.platformio/packages/tool-unity"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f P:\LoRa\patenpflanze\cmake-build-uno\Makefile VERBOSE=1 Z_DUMMY_TARGET"/>
+					<CompileFile command="nmake /NOLOGO /f P:\LoRa\patenpflanze\cmake-build-uno\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f P:\LoRa\patenpflanze\cmake-build-uno\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f P:\LoRa\patenpflanze\cmake-build-uno\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET/fast">
+				<Option output="P:/LoRa/patenpflanze/cmake-build-uno/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="P:/LoRa/patenpflanze/cmake-build-uno"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="P:/LoRa/patenpflanze/include"/>
+					<Add directory="P:/LoRa/patenpflanze/src"/>
+					<Add directory="P:/LoRa/patenpflanze/lib/IBM_LMIC_framework/src"/>
+					<Add directory="P:/LoRa/patenpflanze/lib/Ticker"/>
+					<Add directory="P:/LoRa/patenpflanze/.pio/libdeps/uno/Adafruit BMP085 Library"/>
+					<Add directory="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src"/>
+					<Add directory="C:/Users/dannysteinbrecher/.platformio/packages/framework-arduino-avr/cores/arduino"/>
+					<Add directory="C:/Users/dannysteinbrecher/.platformio/packages/framework-arduino-avr/variants/standard"/>
+					<Add directory="C:/Users/dannysteinbrecher/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/5.4.0/include"/>
+					<Add directory="C:/Users/dannysteinbrecher/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/5.4.0/include-fixed"/>
+					<Add directory="C:/Users/dannysteinbrecher/.platformio/packages/toolchain-atmelavr/avr/include"/>
+					<Add directory="C:/Users/dannysteinbrecher/.platformio/packages/tool-unity"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f P:\LoRa\patenpflanze\cmake-build-uno\Makefile VERBOSE=1 Z_DUMMY_TARGET/fast"/>
+					<CompileFile command="nmake /NOLOGO /f P:\LoRa\patenpflanze\cmake-build-uno\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f P:\LoRa\patenpflanze\cmake-build-uno\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f P:\LoRa\patenpflanze\cmake-build-uno\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="P:/LoRa/patenpflanze/cmake-build-uno"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f P:\LoRa\patenpflanze\cmake-build-uno\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f P:\LoRa\patenpflanze\cmake-build-uno\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f P:\LoRa\patenpflanze\cmake-build-uno\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f P:\LoRa\patenpflanze\cmake-build-uno\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/Adafruit BMP085 Library/.github/ISSUE_TEMPLATE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/Adafruit BMP085 Library/.github/PULL_REQUEST_TEMPLATE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/Adafruit BMP085 Library/.github/workflows/githubci.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/Adafruit BMP085 Library/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/Adafruit BMP085 Library/Adafruit_BMP085.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/Adafruit BMP085 Library/Adafruit_BMP085.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/Adafruit BMP085 Library/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/Adafruit BMP085 Library/examples/BMP085test/BMP085test.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/Adafruit BMP085 Library/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/.travis.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/CMakeLists.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/CONTRIBUTING.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/cmake/git-download.cmake">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/examples/mock-injection/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/examples/mock-injection/.travis.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/examples/mock-injection/platformio.ini">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/examples/mock-injection/src/MyService.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/examples/mock-injection/src/MyService.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/examples/mock-injection/test/test_my_service.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/examples/wiring-blink/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/examples/wiring-blink/.travis.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/examples/wiring-blink/README.rst">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/examples/wiring-blink/lib/readme.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/examples/wiring-blink/platformio.ini">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/examples/wiring-blink/src/main.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/examples/wiring-blink/test/test_main.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/external/CMakeLists.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/external/unity/CMakeLists.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/library.json">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/platformio.ini">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/Arduino.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/ArduinoFake.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/ArduinoFake.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/CMakeLists.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/Client.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/ClientFake.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/ClientFake.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/FunctionFake.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/FunctionFake.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/PrintFake.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/PrintFake.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/SerialFake.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/SerialFake.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/StreamFake.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/StreamFake.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/arduino/Arduino.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/arduino/Client.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/arduino/HardwareSerial.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/arduino/IPAddress.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/arduino/IPAddress.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/arduino/Print.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/arduino/Printable.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/arduino/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/arduino/Server.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/arduino/Stream.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/arduino/USBAPI.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/arduino/USBCore.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/arduino/USBDesc.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/arduino/WCharacter.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/arduino/WString.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/arduino/WString.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/arduino/avr/interrupt.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/arduino/binary.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/arduino/noniso.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/arduino/noniso.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/arduino/pgmspace.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/arduino/pins_arduino.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/fakeit/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/.pio/libdeps/uno/ArduinoFake/src/fakeit/fakeit.hpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/IBM_LMIC_framework/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/IBM_LMIC_framework/doc/LMiC-v1.5.pdf">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/IBM_LMIC_framework/doc/README.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/IBM_LMIC_framework/doc/release-notes.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/IBM_LMIC_framework/examples/raw/raw.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/IBM_LMIC_framework/examples/ttn-abp/ttn-abp.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/IBM_LMIC_framework/examples/ttn-otaa/ttn-otaa.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/IBM_LMIC_framework/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/IBM_LMIC_framework/src/aes/ideetron/AES-128_V10.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/IBM_LMIC_framework/src/aes/lmic.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/IBM_LMIC_framework/src/aes/other.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/IBM_LMIC_framework/src/hal/hal.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/IBM_LMIC_framework/src/hal/hal.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/IBM_LMIC_framework/src/lmic.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/IBM_LMIC_framework/src/lmic/config.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/IBM_LMIC_framework/src/lmic/hal.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/IBM_LMIC_framework/src/lmic/lmic.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/IBM_LMIC_framework/src/lmic/lmic.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/IBM_LMIC_framework/src/lmic/lorabase.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/IBM_LMIC_framework/src/lmic/oslmic.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/IBM_LMIC_framework/src/lmic/oslmic.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/IBM_LMIC_framework/src/lmic/radio.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/Ticker/.git/hooks/applypatch-msg.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/Ticker/.git/hooks/commit-msg.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/Ticker/.git/hooks/fsmonitor-watchman.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/Ticker/.git/hooks/post-update.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/Ticker/.git/hooks/pre-applypatch.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/Ticker/.git/hooks/pre-commit.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/Ticker/.git/hooks/pre-merge-commit.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/Ticker/.git/hooks/pre-push.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/Ticker/.git/hooks/pre-rebase.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/Ticker/.git/hooks/pre-receive.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/Ticker/.git/hooks/prepare-commit-msg.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/Ticker/.git/hooks/update.sample">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/Ticker/.git/objects/pack/pack-ae99da95b43530bc147901367330516577b96c76.idx">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/Ticker/.git/objects/pack/pack-ae99da95b43530bc147901367330516577b96c76.pack">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/Ticker/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/Ticker/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/Ticker/Ticker.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/Ticker/Ticker.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/Ticker/examples/Ticker/Ticker.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/Ticker/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/Ticker/library.json">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/lib/Ticker/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/src/main/config.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/src/main/keys _example.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/src/main/keys.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/src/main/main.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/src/main/sourceCode.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="P:/LoRa/patenpflanze/CMakeListsPrivate.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

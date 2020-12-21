@@ -14,111 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86182311-d61a-4b49-9db6-2fce484fea02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/Adafruit BMP085 Library/.github/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/Adafruit BMP085 Library/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/Adafruit BMP085 Library/.github/workflows/githubci.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/Adafruit BMP085 Library/.piopm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/Adafruit BMP085 Library/Adafruit_BMP085.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/Adafruit BMP085 Library/Adafruit_BMP085.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/Adafruit BMP085 Library/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/Adafruit BMP085 Library/examples/BMP085test/BMP085test.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/Adafruit BMP085 Library/library.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/.piopm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/examples/mock-injection/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/examples/mock-injection/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/examples/mock-injection/platformio.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/examples/mock-injection/src/MyService.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/examples/mock-injection/src/MyService.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/examples/mock-injection/test/test_my_service.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/examples/wiring-blink/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/examples/wiring-blink/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/examples/wiring-blink/README.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/examples/wiring-blink/lib/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/examples/wiring-blink/platformio.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/examples/wiring-blink/src/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/examples/wiring-blink/test/test_main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/external/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/external/unity/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/library.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/platformio.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/Arduino.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/ArduinoFake.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/ArduinoFake.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/Client.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/ClientFake.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/ClientFake.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/FunctionFake.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/FunctionFake.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/PrintFake.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/PrintFake.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/SerialFake.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/SerialFake.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/StreamFake.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/StreamFake.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/arduino/Arduino.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/arduino/Client.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/arduino/HardwareSerial.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/arduino/IPAddress.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/arduino/IPAddress.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/arduino/Print.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/arduino/Printable.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/arduino/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/arduino/Server.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/arduino/Stream.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/arduino/USBAPI.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/arduino/USBCore.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/arduino/USBDesc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/arduino/WCharacter.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/arduino/WString.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/arduino/WString.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/arduino/avr/interrupt.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/arduino/binary.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/arduino/noniso.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/arduino/noniso.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/arduino/pgmspace.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/arduino/pins_arduino.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/fakeit/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pio/libdeps/uno/ArduinoFake/src/fakeit/fakeit.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeListsPrivate.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/IBM_LMIC_framework/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/IBM_LMIC_framework/doc/LMiC-v1.5.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/IBM_LMIC_framework/doc/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/IBM_LMIC_framework/doc/release-notes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/IBM_LMIC_framework/examples/raw/raw.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/IBM_LMIC_framework/examples/ttn-abp/ttn-abp.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/IBM_LMIC_framework/examples/ttn-otaa/ttn-otaa.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/IBM_LMIC_framework/library.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/IBM_LMIC_framework/src/aes/ideetron/AES-128_V10.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/IBM_LMIC_framework/src/aes/lmic.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/IBM_LMIC_framework/src/aes/other.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/IBM_LMIC_framework/src/hal/hal.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/IBM_LMIC_framework/src/hal/hal.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/IBM_LMIC_framework/src/lmic.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/IBM_LMIC_framework/src/lmic/config.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/IBM_LMIC_framework/src/lmic/hal.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/IBM_LMIC_framework/src/lmic/lmic.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/IBM_LMIC_framework/src/lmic/lmic.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/IBM_LMIC_framework/src/lmic/lorabase.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/IBM_LMIC_framework/src/lmic/oslmic.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/IBM_LMIC_framework/src/lmic/oslmic.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/IBM_LMIC_framework/src/lmic/radio.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Ticker" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/platformio.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/config.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/keys _example.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/keys.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/main.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/sourceCode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/sourceCode.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/sourceCode.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,11 +54,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PlatformIO Debug" type="platformio" factoryName="PlatformIO Debug" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="patenpflanze" TARGET_NAME="Debug" CONFIG_NAME="uno" RUN_TARGET_PROJECT_NAME="patenpflanze" RUN_TARGET_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -190,7 +83,9 @@
       <workItem from="1608031995190" duration="621000" />
       <workItem from="1608032693551" duration="92000" />
       <workItem from="1608206336093" duration="638000" />
-      <workItem from="1608222942372" duration="509000" />
+      <workItem from="1608222942372" duration="1149000" />
+      <workItem from="1608239763877" duration="19000" />
+      <workItem from="1608535970405" duration="663000" />
     </task>
     <task id="LOCAL-00001" summary="added function to control the pump&#10;the values are now in double">
       <created>1608223023706</created>
@@ -199,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608223023706</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="tested platformio to run the program with CLion">
+      <created>1608223481039</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608223481039</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +109,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added function to control the pump&#10;the values are now in double" />
-    <option name="LAST_COMMIT_MESSAGE" value="added function to control the pump&#10;the values are now in double" />
+    <MESSAGE value="tested platformio to run the program with CLion" />
+    <option name="LAST_COMMIT_MESSAGE" value="tested platformio to run the program with CLion" />
   </component>
 </project>

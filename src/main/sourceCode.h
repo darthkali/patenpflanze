@@ -32,7 +32,7 @@ double analogInput() {
         static double  analog = 1000 - analogRead(A0);
         double adin =  1000 - analogRead(A0)  ;
 
-        analog = (analog * 29 + adin) /30;
+        analog = (analog * 19 + adin) / 20;
 
         return mapAnalogInput(analog);
 }

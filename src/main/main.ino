@@ -121,7 +121,7 @@ void do_send(osjob_t* j){
         Serial.println(F("OP_TXRXPEND, not sending"));
     } else {
 
-        int hum = analogInput()*100;
+        int hum = analogInput();
         Serial.print("Sensor Data: ");
         Serial.println(hum);
         char buff[16];
@@ -228,6 +228,5 @@ void setup() {
 void loop() {
   timer.update();
   StateMachine();
-//Serial.println(analogInput());
   os_runloop_once();
 }
